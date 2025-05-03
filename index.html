@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <link href="estilo.css" rel="stylesheet">
+  <script src="script.js"></script>
+    </head>
+  <body onload="calcularvalores()">
+        <br>
+        <br>
+        <br>
+        <div id="componentes">
+      <table class="table table-hover">
+        <tr>
+            <th class="tabelalegau">
+                <p class="nomelegau">#</p>
+            </th>
+            <th class="tabelalegau">
+                <p class="nomelegau">Nome</p>
+            </th>
+            <th class="tabelalegau">
+                <p class="nomelegau">Idade</p>
+            </th>
+            <th class="tabelalegau">
+                <p class="nomelegau">Cargo</p>
+            </th>
+            <th class="tabelalegau">
+                <p class="nomelegau">Salario</p>
+            </th>
+        </tr>
+        <tr>
+            <th class="tabelalegau">
+                <p class="nomelegau">1</p>
+            </th>
+            <th class="nometabela">
+                <p class="nomelegau">Rafa</p>
+            </th>
+            <th class="nometabela">
+                <p class="nomelegau" id="idade1">16</p>
+            </th>
+            <th class="nometabela">
+                <p class="nomelegau">Com colega numa moto</p>
+            </th>
+            <th class="nometabela">
+                <p id="salariolegau">2,00</p>
+            </th>
+        </tr>
+        <tr>
+            <th class="tabelalegau">
+                <p class="nomelegau">2</p>
+            </th>
+            <th class="nometabela">
+                <p class="nomelegau">Claudio</p>
+            </th>
+            <th class="nometabela">
+                <p class="nomelegau" id="idade2">20</p>
+            </th>
+            <th class="nometabela">
+                <p class="nomelegau">Trabalhador</p>
+            </th>
+            <th class="nometabela">
+                <p id="salariolegau2">5,00</p>
+            </th>
+        </tr>
+        <tr>
+            <th class="tabelalegau">
+                <p class="nomelegau">#</p>
+            </th>
+            <th class="mediatabela">
+                <p class="medialegau">MÉDIA IDADE</p>
+            </th>
+            <th class="mediatabela">
+                <p id="medialegauidade">    </p>
+            </th>
+            <th class="mediatabela">
+                <p class="medialegau">MEDIA SALARIAL</p>
+            </th>
+            <th class="mediatabela">
+                <p id="mediasalario"> </p>
+            </th>
+        </tr>
+      </table>
+      <button onclick="listopidade()" type="button" class="btn btn-primary">Mostrar cálculo das médias</button>
+      <button type="button" class="btn btn-warning"onclick="clean()">Limpar</button>
+    </div>
+    
+    </body>
+</html>

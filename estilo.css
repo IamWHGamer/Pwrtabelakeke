@@ -1,0 +1,46 @@
+table {
+    margin: auto;
+    margin-top: 10%;
+}
+
+tr {
+    border: 2px, solid;
+}
+
+th {
+    border: 2px, solid;
+}
+
+#testebuton {
+    margin-left: 45%;
+}
+
+#componentes{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    position: absolute;
+}
+.nomelegau {
+    text-align: center;
+}
+
+#salariolegau2 {
+    text-align: center;
+}
+
+#salariolegau {
+    text-align: center;
+}
+
+.medialegau {
+    text-align: center;
+}
+
+#medialegauidade {
+    text-align: center;
+}
+
+#mediasalario {
+    text-align: center;
+}
